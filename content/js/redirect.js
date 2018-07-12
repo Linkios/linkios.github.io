@@ -9,6 +9,6 @@ redirect = {
         var url = new URL(window.location.href);
         var target = url.searchParams.get("go");
         console.log(this.destination(target));
-        //window.location.replace(this.destination(target));
+        window.location.replace(this.destination(target));
     }
 }
