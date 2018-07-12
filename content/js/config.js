@@ -1,7 +1,6 @@
 config = {
     getProperty: function (key) {
         messageResource.init({
-            // path to directory containing config.properties
             filePath: 'content/config/',
             debugMode: true
         });

@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <META HTTP-EQUIV='Content-Security-Policy' CONTENT="default-src 'self' ;
+	script-src 'self' 'unsafe-inline';
+	style-src 'self' 'unsafe-inline';
+	img-src 'self' *;
+	media-src 'self' ;
+	frame-src 'self';">
     <link rel="shortcut icon" type="image/png" href="content/image/logo.png"/>
     <title>Redirecting...</title>
 </head>
 <body>
     <script src="content/js/messageResource.min.js"></script>
-    <script src="content/js/config.js"></script>
     <script src="content/js/redirect.js"></script>
     <script>
         redirect.goto();
